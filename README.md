@@ -7,7 +7,7 @@ fer2013 is the image data. It is too big to upload on GitHub as well (max 25 mb)
 
 1. Language:
 
-dictionary.txt and sentiment_labels.txt is the language data. 
+dictionary.txt and sentiment_labels.txt is the language data. ( https://nlp.stanford.edu/sentiment/code.html Richard Socher, Alex Perelygin, Jean Wu, Jason Chuang, Christopher Manning, Andrew Ng and Christopher Potts, Recursive Deep Models for Semantic Compositionality Over a Sentiment Treebank, Conference on Empirical Methods in Natural Language Processing (EMNLP 2013))
 
 preprocessing.py takes the language data
 —> outputs vocab.npy, parameters.npy, happy_sents and angry_sents.npy. 
