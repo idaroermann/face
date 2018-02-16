@@ -1,6 +1,6 @@
 # face
 
-**See report in the pdf 'what a face says' 
+ ***** -----   See report in the pdf 'what a face says'   ------ *****
 
 ESLP project
 Learning sentiment scores from images through sentences. 
@@ -36,7 +36,7 @@ I balanced out the data: 3965/990 train/test happy, 3965/990 train/test angry
 The script is elsp_images.py and takes only the data-path as input.
 —> outputs bottleneck_fc_model.h5 , that uses the VGG16 network pre-trained on ImageNet. 
 
-I had to fix some stuff to make the code running (numpy changes and keras 2)
+I had to fix some stuff from the blog to my code to make the code running (numpy changes and keras 2)
 
 This model is fine-tuned in elsp_image_finetune.py , that fits and save image_model.h5 in your directory.
 
